@@ -10,7 +10,7 @@
     <content src="index.html" />
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="cli-5.2.0" />
-	
+	<preference name="load-url-timeout" value="60000" />
     <preference name="orientation" value="portrait" />
     <preference name="EnableViewportScale" value="false"/>
     <preference name="target-device" value="universal" />
@@ -36,11 +36,8 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <preference name="SplashScreen" value="screen"/>
-   
-	<feature name="SplashScreen">
-    <param name="ios-package" value="CDVSplashScreen" />
-    <param name="onload" value="true" />
-    </feature>
+    
+	<preference name="auto-hide-splash-screen" value="false" /> 
     <access origin="*" />
 
     <icon src="icon.png" />
