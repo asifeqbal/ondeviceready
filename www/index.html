@@ -35,7 +35,7 @@
     <body>
 		<div id="blanker"></div>
 		<div id="offline-screen"></div>	
-		<!-- <iframe src="http://www.heelnederlanddeelt.nl/heelnederlanddeel-mobiel-30.html" onload="loaded();" name="container-frame" id="container-frame" seamless="seamless" width="100%" height="100%" style="overflow-x:hidden; border:none;"></iframe> -->
+		<iframe src="http://www.floow2.com/fl2-en-mobile.html" onload="loaded();" name="container-frame" id="container-frame" seamless="seamless" width="100%" height="100%" style="overflow-x:hidden; border:none;"></iframe>
 		<script type="text/javascript" src="js/index.js"></script>
 		<script type="text/javascript">			
 			// Initializing global variables
@@ -51,8 +51,7 @@
 			// Add support
 			//$.support.cors=true;
 			//$.mobile.allowCrossDomainPages = true;		
-			
-			/*function loaded(){
+			function loaded(){
 				document.getElementById('blanker').style.display = 'none';
 			}
 
@@ -63,11 +62,11 @@
 						break;
 				}
 			};	
-			window.addEventListener("message", receiveMessage, false);	*/	
+			window.addEventListener("message", receiveMessage, false);		
 			
 			function onDeviceReady() {
 				// Blanker on change				
-				/*document.addEventListener("online", doWhenOnline, false);
+				document.addEventListener("online", doWhenOnline, false);
 				document.addEventListener("offline", doWhenOffline, false);
 				var networkState = navigator.connection.type;
 				
@@ -76,17 +75,17 @@
 				}
 				else{
 					doWhenOnline();
-				} */
-					alert('hi');
+				} 
+					
 			}	
 			
-			/*function doWhenOnline(){
+			function doWhenOnline(){
 				document.getElementById('offline-screen').style.display = 'none';
 			}
 			
 			function doWhenOffline(){				
 				document.getElementById('offline-screen').style.display = 'block';
-			}*/
+			}
 		</script>
     </body>
 </html>
