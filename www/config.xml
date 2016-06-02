@@ -32,7 +32,7 @@
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
     <preference name="android-minSdkVersion" value="7" />
-    <gap:plugin name="cordova-plugin-whitelist" version="1" />
+    <gap:plugin name="cordova-plugin-whitelist" spec="1.1.0"/>
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <preference name="SplashScreen" value="screen"/>
