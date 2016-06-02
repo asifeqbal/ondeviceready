@@ -34,9 +34,10 @@
     <preference name="android-minSdkVersion" value="7" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.splashscreen" spec="3.2.2"/>
     <preference name="SplashScreen" value="screen"/>
     <preference name="SplashScreenDelay" value="4000" />
+	<preference name="auto-hide-splash-screen" value="true" />
     <access origin="*" />
 
     <icon src="icon.png" />
